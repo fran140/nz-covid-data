@@ -239,4 +239,15 @@
 { "type": "Feature", "properties": { "id": "a0l4a0000004Ght", "Event": "New World Papatoetoe 19\/08\/21", "Location": "63 St George Street, Papatoetoe, Auckland 2025", "City": "Auckland", "Start": "19\/08\/2021, 9:53 am", "End": "19\/08\/2021, 10:30 am", "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.", "Added": "22\/08\/2021 13:21" }, "geometry": { "type": "Point", "coordinates": [ 174.8535, -36.9798 ] } },
 { "type": "Feature", "properties": { "id": "a0l4a0000004GkE", "Event": "Countdown Auckland Victoria Street West 15\/08\/2021", "Location": "1\/25 Victoria Street West, Auckland Central, Auckland 1010", "City": "Auckland", "Start": "15\/08\/2021, 2:30 pm", "End": "15\/08\/2021, 3:15 pm", "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.", "Added": "22\/08\/2021 9:40" }, "geometry": { "type": "Point", "coordinates": [ 174.764639, -36.848641 ] } }
 ]
+  var someFeatures = [{
+    "type": "FeatureCollection",
+    "properties": {
+        "Added" >= "23\/08\/2021 00:00",
+        "show_on_map": true
+    },
+    "properties": {
+        "Added" < "23\/08\/2021 00:00",
+        "show_on_map": false
+    },
+}]
 }
